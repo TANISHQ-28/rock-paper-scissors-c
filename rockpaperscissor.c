@@ -46,15 +46,7 @@ int main()
         {
             printf("Invalid entry\n");
         }
-        if(p1==0 && p2==0)
-        {
-            printf("Tie (No points)\n");
-        }
-        if(p1==1 && p2==1)
-        {
-            printf("Tie (No points)\n");
-        }
-        if(p1==2 && p2==2)
+        if(p1==p2)
         {
             printf("Tie (No points)\n");
         }
